@@ -1,0 +1,51 @@
+Java
+
+- WORA: Write Once Run anywhere
+- Platform Independent, portable
+
+Platform = O/S + Hardware
+
+History:
+
+- Invented by James Gosling 1991
+- Developed By Sun Microsystems
+- old name of java is "oak"
+- in 1995, first released publicly as Java 1.0
+- Sun Microsystems sold java to oracle corporation in 2009
+
+C (Source Code, .c)	----> Compiler ----> Machine/Object/Native Code (Binary Code), it is not portable
+
+JRE: Java Runtime Environment
+
+Java (SC, .java)-----> Compiler ----> Byte Code(.class) (Intermediate Code) ----> Interpreter (JRE) ---> MC, NC, BC, OC
+
+- Byte Code is not a source code and not a machine code, it is intermediate code
+- JRE read byte code and converted it into machine code
+
+
+IDE: Integrated Development Environment
+
+1. Visual Studio code
+
+- compile: javac Intro.java
+- Run: java Hello
+
+2. Eclipse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
