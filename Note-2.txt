@@ -1,0 +1,12 @@
+- javac: java compiler
+javac example.java
+
+- java: Run / execute the program
+java bytecode/classname
+
+Creating first program in java
+
+- Every java program start with class
+- Class name should start with capital letter
+- Class name should be same as file name
+- Class name starts with either alphabet or special symbol(_, $)
