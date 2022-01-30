@@ -1,0 +1,105 @@
+Java
+
+main method?
+
+- main is an entry point of every java program
+- without main java will compile the code and convert convert it inot byte code, but it cannot execute the code or interpret the code
+
+
+Why main is public?
+
+- public: global, which is accessible for all from anywhere
+
+- JRE uses main
+- Java command trigger the JRE
+- JRE load your class in the memory
+- JRE is looking for main
+- JRE is outside your directory
+- And outside the package things can access
+
+Why main is Static?
+
+- static things are loaded into memory when class is loaded.
+
+Why main is void?
+
+- main is void in nature
+- main is entry point so there is no need to return anything
+
+Main Arguments: String[] args
+
+String: data type
+[]- array
+args: arguments
+
+- main has command line arguments
+- we can pass any number of arguments, that's why it is array
+- All arguments are pass to main in form of array of String
+
+What is String?
+
+- It is a collection of characters
+- String internally a char[]
+- String is a predefined class in java as it is in capital letter
+
+What is System.out.println()?
+
+- println() - print in new line, println comes from out object
+- out - out is an predefined object, which belongs to PrintStream class
+- System is a predefined class used for input, output, error
+e.g: System.in, System.out, System.err
+
+Println vs Print
+
+- println: print in new line
+- print: here cursor remains at the end of the text
+
+Can we overload main()?
+
+- yes, we can overload the main
+- when we execute the class, JVM starts execution with public static void main(String[] args)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
