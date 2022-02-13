@@ -1,0 +1,31 @@
+Data types:
+
+it is used to store integral only
+byte - 1 byte
+int - 4 bytes
+short - 2 bytes
+long - 4 bytes
+
+Decimal
+float - 4 bytes
+double - 8 bytes
+
+byte = 1 byte = 8 bits
+1 bit +-
+7 bits number range
+bit - binary 0 or 1, base 2
+
+-2 ^ 7 to 2 ^ 7 - 1
+-128 to 127
+
+- java doesn't support unsigned concept
+- BigInteger, BigDecimal
+
+Data Types:
+
+1. Primitive/Value: lowercase
+e.g: int , byte, float, double, short, long, boolean, char
+
+2. Reference/Address: capatalize
+e.g: String
+
