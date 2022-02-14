@@ -1,0 +1,20 @@
+Java
+
+- They convert primitve data types into objects
+
+Primitive data types					Wrapper Classes
+
+int							Integer
+short							Short
+char							Character
+long							Long
+float							Float
+double 							Double
+boolean							Boolean
+byte							Byte
+
+Autoboxing: primitive to wrapper class
+e.g: int to Integer, long into Long
+
+Unboxing: reverse of autoboxing
+e.g: Integer to int, Long to long
