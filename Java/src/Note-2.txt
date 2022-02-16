@@ -1,0 +1,97 @@
+Encapsulation: wrapping variables and methods into a single unit is called encapsulation
+e.g: class
+
+Good/Secure Encapsulation: Data Hiding + Encapsulation
+
+Constructor
+
+Q1. Need to initialize the member variable when object is construct/create.
+Ans: We need constructor for this.
+
+- constructor is call when you create an object
+- So constructor will initialize the member variable
+- constructor name is same as class name
+- constructor never return anything
+- It is called only once
+- One class can have multiple constructors, so this thing is called constructor overloading
+- Every class by default have default constructor
+- So if you create any other constructor the default one is killed
+
+constructor has types:
+
+1. default constructor
+2. parameterized constructor
+
+This keyword: It can hold current object's reference
+
+1. To differentiate the instance and local varibales
+
+2. To use default and parameterized constructor at a time
+
+When we need multiple constructor calls in a sinle call
+sol: we need constructor chaining for this.
+this keyword also use for constructor chaining
+
+What is Package in java?
+
+- Package is a folder / directory behind the scene
+- Package is a collection of classess, interfaces
+- We divide a big problem into small-2 packages
+- So we can group the similar code in same kind of packages
+
+e.g:
+
+Online Exam System
+
+teacher
+student
+exam
+
+Class Relationship: Inheritance
+- communicate b/w classes
+
+1. IS-A Inheritance
+- BMW is a car
+- Savingaccount is a account
+- Lion is a animal
+
+2. HAS-A Inheritance
+- BMW has a driver
+- Customer has a account
+- customer has a order
+
+- Inheritance: parent child relationship
+	by using extends keyword
+
+- code reuse
+
+Overriding:
+
+When parent feature is outdated so we override the parent feature in a child
+Overriding hide the parent feature
+
+- Must be inheritance
+- Method signature must be same
+void roi(), same child has same void roi()
+
+
+Abstract Concept
+
+- Abstraction: only share essential information not internal
+
+- Abstract Methods: can only be declared, not defined
+- Abstract Class: can have abstract methods
+- You can't create objects of abstract class
+
+Mutliple Inheritance
+
+	p1      p2
+	
+	
+	    C
+
+
+Interface
+
+- because it supports multiple inheritance / interface
+- it is also provide total abstraction
