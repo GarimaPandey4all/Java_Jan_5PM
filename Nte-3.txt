@@ -1,0 +1,16 @@
+Multiple Inheritance
+
+	P1 			P2
+
+
+		  C (extends P1, P2) X
+
+- Java doesn't support multiple inheritance
+
+
+Interface
+
+- Like a class, an interface can have methods and variables, but the methods declared in an interface are by defualt abstract (only declared, not defined)
+
+- Total Abstraction
+- Support Multiple Interface
