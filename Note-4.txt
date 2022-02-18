@@ -1,0 +1,60 @@
+Memory Management:
+
+- During a execution time
+
+RAM: Random Access Memory
+
+- Temporary Memory
+- Primary Memory
+- Main Memory
+
+- Heap: Dynamic Memory Allocation
+- Stack: Static Memory Allocation
+
+obj = null; unused
+
+G.C
+a) Minor G.C (Yound Gen)
+b) Maos G.C (Old Gen)
+
+String Handling:
+
+- String internally char[]
+- e.g: String name = "Amit"
+- String is a predefine class in java
+- So it has some predefined functions
+- It is also treat like a Data type
+- String is a final class, so you can't inherit it
+- String objects are created in 2 ways
+
+a) String Literal Style
+e.g: String name = "Amit";
+
+b) String Object Style
+e.g: String name = new String("Amit");
+
+- String use String pool
+- String objects are immutable
+String doesn't change existing or original objects, it can create new memory or object all the time.
+
+Solution of String immutable is: StringBuffer and StringBuilder (because they are mutuable)
+- Mutuable is that it doesn't create new objects or memory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
