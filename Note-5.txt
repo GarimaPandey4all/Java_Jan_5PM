@@ -1,0 +1,11 @@
+Exception Handling
+
+Exception: Abnormal condition which terminates the program flow
+- runtime error
+- 100 / 0 = infinite
+
+try
+catch
+throw(implicitly)
+throws
+finally
