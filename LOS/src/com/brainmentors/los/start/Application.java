@@ -10,19 +10,26 @@ public class Application {
 		
 		LOSProcess process = new LOSProcess();
 		
-		System.out.println("Do you have Application Number or Not (Enter 0)");
-		int applicationNumner = Utility.scanner.nextInt();
-		
-		if(applicationNumner == 0)
+		while(true)
 		{
-			//New Customer
-			process.sourcing();
+			System.out.println("Do you have Application Number or Not (Enter 0) and Enter -1 to exit");
+			int applicationNumner = Utility.scanner.nextInt();
+			
+			if(applicationNumner == -1)
+			{
+				System.out.println("Thanks for Using");
+				System.exit(0);
+			}
+			if(applicationNumner == 0)
+			{
+				//New Customer
+				process.sourcing();
+			}
+			else {
+				//Existing Customer
+				process.checkStage(applicationNumner);
+			}
 		}
-		else {
-			//Existing Customer
-			process.checkStage(applicationNumner);
-		}
-
 	}
 
 }
